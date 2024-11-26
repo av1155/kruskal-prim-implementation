@@ -11,7 +11,7 @@
         -   [Prim's Algorithm Input Format](#prims-algorithm-input-format)
             -   [Prim's Algorithm Example](#prims-algorithm-example)
             -   [Prim's Algorithm Sample Run:](#prims-algorithm-sample-run)
-    -   [Performance Evaluation Script ([performance_evaluation.py](performance_evaluation.py))](#performance-evaluation-script-performanceevaluationpyperformanceevaluationpy)
+    -   [Performance Evaluation Script](#performance-evaluation-script)
         -   [Functionality Overview](#functionality-overview)
         -   [How to Run the Script](#how-to-run-the-script)
 
@@ -159,9 +159,9 @@ Feel free to run the programs with your own input files or modify the existing o
 
 ---
 
-## Performance Evaluation Script ([performance_evaluation.py](performance_evaluation.py))
+## Performance Evaluation Script
 
-The `performance_evaluation.py` script is designed to assess and compare the execution time of Kruskal's and Prim's algorithms for constructing a Minimum Spanning Tree (MST) on random graphs of varying sizes and densities. This empirical evaluation helps understand the computational efficiency of both algorithms under different graph configurations.
+The [performance_evaluation.py](performance_evaluation.py) script is designed to assess and compare the execution time of Kruskal's and Prim's algorithms for constructing a Minimum Spanning Tree (MST) on random graphs of varying sizes and densities. This empirical evaluation helps understand the computational efficiency of both algorithms under different graph configurations.
 
 ---
 
