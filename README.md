@@ -1,19 +1,19 @@
 # User Manual for Minimum Spanning Tree Algorithms
 
-- [User Manual for Minimum Spanning Tree Algorithms](#user-manual-for-minimum-spanning-tree-algorithms)
-    - [Kruskal's Algorithm](#kruskals-algorithm)
-        - [Kruskal's Algorithm Usage](#kruskals-algorithm-usage)
-        - [Kruskal's Algorithm Input Format](#kruskals-algorithm-input-format)
-            - [Kruskal's Algorithm Example:](#kruskals-algorithm-example)
-            - [Kruskal's Algorithm Sample Run:](#kruskals-algorithm-sample-run)
-    - [Prim's Algorithm](#prims-algorithm)
-        - [Prim's Algorithm Usage](#prims-algorithm-usage)
-        - [Prim's Algorithm Input Format](#prims-algorithm-input-format)
-            - [Prim's Algorithm Example](#prims-algorithm-example)
-            - [Prim's Algorithm Sample Run:](#prims-algorithm-sample-run)
-        - [Performance Evaluation Script (`performance_evaluation.py`)](#performance-evaluation-script-performanceevaluationpy)
-            - [Functionality Overview](#functionality-overview)
-            - [How to Run the Script](#how-to-run-the-script)
+-   [User Manual for Minimum Spanning Tree Algorithms](#user-manual-for-minimum-spanning-tree-algorithms)
+    -   [Kruskal's Algorithm](#kruskals-algorithm)
+        -   [Kruskal's Algorithm Usage](#kruskals-algorithm-usage)
+        -   [Kruskal's Algorithm Input Format](#kruskals-algorithm-input-format)
+            -   [Kruskal's Algorithm Example:](#kruskals-algorithm-example)
+            -   [Kruskal's Algorithm Sample Run:](#kruskals-algorithm-sample-run)
+    -   [Prim's Algorithm](#prims-algorithm)
+        -   [Prim's Algorithm Usage](#prims-algorithm-usage)
+        -   [Prim's Algorithm Input Format](#prims-algorithm-input-format)
+            -   [Prim's Algorithm Example](#prims-algorithm-example)
+            -   [Prim's Algorithm Sample Run:](#prims-algorithm-sample-run)
+    -   [Performance Evaluation Script ([performance_evaluation.py](performance_evaluation.py))](#performance-evaluation-script-performanceevaluationpyperformanceevaluationpy)
+        -   [Functionality Overview](#functionality-overview)
+        -   [How to Run the Script](#how-to-run-the-script)
 
 This user manual provides instructions on how to use the implementations of Kruskal's and Prim's algorithms for computing the Minimum Spanning Tree (MST) of an undirected, weighted graph.
 
@@ -31,8 +31,8 @@ To run the program, use the following command:
 python Kruskal.py [input_file]
 ```
 
-- If `input_file` is provided, the program reads the graph from the specified file.
-- If `input_file` is not provided, the program reads the graph from standard input.
+-   If `input_file` is provided, the program reads the graph from the specified file.
+-   If `input_file` is not provided, the program reads the graph from standard input.
 
 ### Kruskal's Algorithm Input Format
 
@@ -46,14 +46,14 @@ u2 v2 w2
 um vm wm
 ```
 
-- `n`: Number of vertices (vertices are labeled from `0` to `n-1`)
-- `m`: Number of edges
-- `ui vi wi`: Edge between vertex `ui` and `vi` with weight `wi`
+-   `n`: Number of vertices (vertices are labeled from `0` to `n-1`)
+-   `m`: Number of edges
+-   `ui vi wi`: Edge between vertex `ui` and `vi` with weight `wi`
 
 **Output:**
 
-- A list of edges included in the MST.
-- The total weight of the MST.
+-   A list of edges included in the MST.
+-   The total weight of the MST.
 
 #### Kruskal's Algorithm Example:
 
@@ -98,8 +98,8 @@ To run the program, use the following command:
 python Prim.py [input_file]
 ```
 
-- If `input_file` is provided, the program reads the graph from the specified file.
-- If `input_file` is not provided, the program reads the graph from standard input.
+-   If `input_file` is provided, the program reads the graph from the specified file.
+-   If `input_file` is not provided, the program reads the graph from standard input.
 
 ### Prim's Algorithm Input Format
 
@@ -113,14 +113,14 @@ u2 v2 w2
 um vm wm
 ```
 
-- `n`: Number of vertices (vertices are labeled from `0` to `n-1`)
-- `m`: Number of edges
-- `ui vi wi`: Edge between vertex `ui` and `vi` with weight `wi`
+-   `n`: Number of vertices (vertices are labeled from `0` to `n-1`)
+-   `m`: Number of edges
+-   `ui vi wi`: Edge between vertex `ui` and `vi` with weight `wi`
 
 **Output:**
 
-- A list of edges included in the MST.
-- The total weight of the MST.
+-   A list of edges included in the MST.
+-   The total weight of the MST.
 
 #### Prim's Algorithm Example
 
@@ -159,7 +159,7 @@ Feel free to run the programs with your own input files or modify the existing o
 
 ---
 
-### Performance Evaluation Script (`performance_evaluation.py`)
+## Performance Evaluation Script ([performance_evaluation.py](performance_evaluation.py))
 
 The `performance_evaluation.py` script is designed to assess and compare the execution time of Kruskal's and Prim's algorithms for constructing a Minimum Spanning Tree (MST) on random graphs of varying sizes and densities. This empirical evaluation helps understand the computational efficiency of both algorithms under different graph configurations.
 
@@ -203,9 +203,9 @@ The `performance_evaluation.py` script is designed to assess and compare the exe
 
 3. **Output Files**:
 
-- Performance results are saved in the results directory as:
-    - CSV file: `performance_results.csv`
-    - Graph images: `performance_n_50.png`, `performance_n_100.png`, etc.
+-   Performance results are saved in the results directory as:
+    -   CSV file: `performance_results.csv`
+    -   Graph images: `performance_n_50.png`, `performance_n_100.png`, etc.
 
 3. **Interpretation of Results**:
     - Open the CSV file to view the recorded execution times for different graph sizes and densities.
