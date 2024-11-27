@@ -1,0 +1,46 @@
+❯ python Kruskal.py graph.txt
+Edges in the MST:
+2 - 3: 4.0
+0 - 3: 5.0
+0 - 1: 10.0
+Total weight of MST: 19.0
+
+❯ python Prim.py graph.txt
+Edges in the MST:
+0 - 3: 5.0
+3 - 2: 4.0
+0 - 1: 10.0
+Total weight of MST: 19.0
+
+❯ python performance_evaluation.py
+n=50, density=0.1, Kruskal Time=0.0000s, Prim Time=0.0000s
+n=50, density=0.3, Kruskal Time=0.0001s, Prim Time=0.0001s
+n=50, density=0.5, Kruskal Time=0.0001s, Prim Time=0.0001s
+n=50, density=0.7, Kruskal Time=0.0002s, Prim Time=0.0001s
+n=50, density=0.9, Kruskal Time=0.0002s, Prim Time=0.0001s
+n=100, density=0.1, Kruskal Time=0.0001s, Prim Time=0.0001s
+n=100, density=0.3, Kruskal Time=0.0003s, Prim Time=0.0002s
+n=100, density=0.5, Kruskal Time=0.0006s, Prim Time=0.0003s
+n=100, density=0.7, Kruskal Time=0.0008s, Prim Time=0.0004s
+n=100, density=0.9, Kruskal Time=0.0011s, Prim Time=0.0005s
+n=200, density=0.1, Kruskal Time=0.0005s, Prim Time=0.0003s
+n=200, density=0.3, Kruskal Time=0.0015s, Prim Time=0.0009s
+n=200, density=0.5, Kruskal Time=0.0024s, Prim Time=0.0013s
+n=200, density=0.7, Kruskal Time=0.0035s, Prim Time=0.0018s
+n=200, density=0.9, Kruskal Time=0.0044s, Prim Time=0.0023s
+n=300, density=0.1, Kruskal Time=0.0011s, Prim Time=0.0008s
+n=300, density=0.3, Kruskal Time=0.0035s, Prim Time=0.0020s
+n=300, density=0.5, Kruskal Time=0.0058s, Prim Time=0.0031s
+n=300, density=0.7, Kruskal Time=0.0096s, Prim Time=0.0048s
+n=300, density=0.9, Kruskal Time=0.0106s, Prim Time=0.0053s
+n=400, density=0.1, Kruskal Time=0.0021s, Prim Time=0.0015s
+n=400, density=0.3, Kruskal Time=0.0063s, Prim Time=0.0037s
+n=400, density=0.5, Kruskal Time=0.0109s, Prim Time=0.0059s
+n=400, density=0.7, Kruskal Time=0.0157s, Prim Time=0.0074s
+n=400, density=0.9, Kruskal Time=0.0221s, Prim Time=0.0108s
+n=500, density=0.1, Kruskal Time=0.0033s, Prim Time=0.0025s
+n=500, density=0.3, Kruskal Time=0.0101s, Prim Time=0.0057s
+n=500, density=0.5, Kruskal Time=0.0176s, Prim Time=0.0092s
+n=500, density=0.7, Kruskal Time=0.0246s, Prim Time=0.0124s
+n=500, density=0.9, Kruskal Time=0.0326s, Prim Time=0.0162s
+Results saved to results/performance_results.csv
